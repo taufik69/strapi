@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_layouts",
+  "info": {
+    "displayName": "layout",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menu_item": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

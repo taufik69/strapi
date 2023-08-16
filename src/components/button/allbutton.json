@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_button_allbuttons",
+  "info": {
+    "displayName": "Allbutton",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button_items": {
+      "type": "string",
+      "required": true,
+      "default": "#"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_full_expertise_expertise",
+  "info": {
+    "displayName": "expertise",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "expertise_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "expertise_heading": {
+      "type": "string",
+      "required": true
+    },
+    "expertise_description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expertises",
+  "info": {
+    "singularName": "expertise",
+    "pluralName": "expertises",
+    "displayName": "expertise"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "expertice_icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "expertise_heading": {
+      "type": "string",
+      "required": true
+    },
+    "expertice_description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

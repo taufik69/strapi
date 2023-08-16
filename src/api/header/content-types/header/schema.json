@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "menu_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.layout",
+      "required": true
+    },
+    "button_list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.allbutton"
+    }
+  }
+}
